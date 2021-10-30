@@ -1,0 +1,802 @@
+version: "2.0"
+
+nlu:
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+    - Cho em hỏi sau kh
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+    - ok
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+    - ok
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+    - Cho em hỏi mã tuyển sinh của Phân hiệu là gì ạ?
+    - mình cần thông tin về mã tuyển sanh của trường
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?

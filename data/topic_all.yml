@@ -1,0 +1,648 @@
+version: "2.0"
+
+nlu:
+- intent: t1_q1
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+
+- intent: t1_q2
+  examples: |
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+
+- intent: t1_q3
+  examples: |
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+
+- intent: t1_q4
+  examples: |
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+
+- intent: t1_q5
+  examples: |
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+
+- intent: t1_q6
+  examples: |
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+
+- intent: t1_q7
+  examples: |
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+
+- intent: t1_q8
+  examples: |
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ
+
+- intent: t1_q9
+  examples: |
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+
+- intent: t1_q10
+  examples: |
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+
+- intent: t1_q11
+  examples: |
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+
+- intent: t1_q12
+  examples: |
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+
+- intent: t1_q13
+  examples: |
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+
+- intent: t1_q14
+  examples: |
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+
+- intent: t1_q15
+  examples: |
+    - Cho em hỏi ở KTX có căn tin không ạ?
+
+- intent: t1_q16
+  examples: |
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+
+- intent: t1_q17
+  examples: |
+    - Ở KTX có được nấu ăn không
+
+- intent: t1_q18
+  examples: |
+    - SV có được tiếp khách trong phòng không?
+
+- intent: t2_q1
+  examples: |
+    - Một sinh viên được tham gia thực hiện bao nhiêu đề tài?
+
+- intent: t2_q2
+  examples: |
+    - Số sinh viên tối đa tham gia thực hiện một đề tài?
+
+- intent: t2_q3
+  examples: |
+    - Các đề tài như nào thì không được thực hiện?
+
+- intent: t2_q4
+  examples: |
+    - Đề tài NCKHSV cấp Trường có thể tiếp tục tham gia các cuộc thi sáng tạo cấp cao hơn không?
+
+- intent: t2_q5
+  examples: |
+    - Thời gian đăng ký thực hiện đề tài NCKHSV?
+
+- intent: t2_q6
+  examples: |
+    - Thời gian báo cáo đề tài NCKHSV?
+
+- intent: t2_q7
+  examples: |
+    - Trách nhiệm của sinh viên khi tham gia NCKH?
+
+- intent: t2_q8
+  examples: |
+    - Quyền của sinh viên khi tham gia NCKH?
+
+- intent: t2_q9
+  examples: |
+    - Nguồn kinh phí hỗ trợ cho hoạt động NCKH của sinh viên?
+
+- intent: t3_q1
+  examples: |
+    - Hộ cận nghèo có được miễn giảm học phí không?
+
+- intent: t3_q2
+  examples: |
+    - Mẹ em bị tại nạn lao động và hiện tại được hưởng trợ cấp thường xuyên thì có được miễn giảm học phí không?
+
+- intent: t3_q3
+  examples: |
+    - Em là bộ đội xuất ngũ, sau đó thi đỗ và học tập tại Trường, vậy em có được miễn, giảm học phí không?
+
+- intent: t3_q4
+  examples: |
+    - Em là con thương binh. Hiện đang học tập tại Trường, em có thuộc đối tượng được miễn học phí không?
+
+- intent: t3_q5
+  examples: |
+    - Em bị khuyết tật thì có được miễn giảm học phí không?
+
+- intent: t3_q6
+  examples: |
+    - Em bị khuyết tật thuộc đối tượng miễn giảm học phí theo nghị định 81/NĐ-CP ngày 27/08/2021 thì cần nộp những giấ tờ gì?
+
+- intent: t3_q7
+  examples: |
+    - Sinh viên dân tộc thiểu số rất ít người là những dẫn tộc nào?
+
+- intent: t3_q8
+  examples: |
+    - Hộ nghèo có được trợ cấp xã hội không?
+
+- intent: t3_q9
+  examples: |
+    - Dân tộc thiểu số thuộc hộ nghèo có được miễn giảm học phí không?
+
+- intent: t3_q10
+  examples: |
+    - Các đối tượng được trợ cấp xã hội là gi
+
+- intent: t3_q11
+  examples: |
+    - Miễn giảm học phí quy định ra sao ?
+
+- intent: t3_q12
+  examples: |
+    - Trợ cấp ưu đãi quy định như thế nào ?
+
+- intent: t3_q13
+  examples: |
+    - Quy định hưởng trợ cấp xã hội ?
+
+- intent: t3_q14
+  examples: |
+    - Quy định hỗ trợ chi phí học tập như thế nào ?
+
+- intent: t3_q15
+  examples: |
+    - Miễn giảm phí nội trú Ký túc xá được quy định như thế nào ?
+
+- intent: t3_q16
+  examples: |
+    - Hồ sơ theo từng đối tượng gồm ?
+
+- intent: t4_q1
+  examples: |
+    - Đăng ký các loại giấy xác nhận sinh viên ở đâu, chỗ nào
+
+- intent: t4_q2
+  examples: |
+    - Nhận kết quả các loại giấy xác nhận sinh viên ở đâu, chỗ nào, bao lâu có kết quả
+
+- intent: t4_q3
+  examples: |
+    - Đăng ký xác nhận thời gian học tập tại Nhà trường; chấp hành nội quy, quy định trong quá trình học tập
+
+- intent: t5_q1
+  examples: |
+    - Nhiệm vụ của cố vấn học tập (CVHT) là gì ?
+
+- intent: t5_q2
+  examples: |
+    - Thời gian và nội dung làm việc với lớp của CVHT như thế nào ?
+
+- intent: t5_q3
+  examples: |
+    - Các nội dung đánh giá hoạt động của CVHT là gì ?
+
+- intent: t5_q4
+  examples: |
+    - Thời gian, hướng dẫn thực hiện đánh giá CVHT trong năm học như thế nào ?
+
+- intent: t5_q5
+  examples: |
+    - Em quên đánh giá Cố vấn học tập (CVHT) có bị làm sao không
+
+- intent: t5_q6
+  examples: |
+    - Đánh giá Cố vấn học tập (CVHT) ở chỗ nào
+
+- intent: t6_q1
+  examples: |
+    - Em quên đánh giá rèn luyện sinh viên có bị làm sao không
+
+- intent: t6_q2
+  examples: |
+    - Có những tiêu chí đánh giá rèn luyện sinh viên cần minh chứng mà khó thu thập, nộp lại phải làm sao (ví dụ: tham gia các hoạt động thể thao Lớp tự tổ chức,…)
+
+- intent: t6_q3
+  examples: |
+    - Sinh viên chuyển hệ đào tạo (từ Chính quy sang Vừa làm vừa học) có đánh giá rèn luyện sinh viên không
+
+- intent: t6_q4
+  examples: |
+    - Trong quá trình đánh giá rèn luyện sinh viên, có thắc mắc liên quan tới các tiêu chí điểm, tham gia bảo hiểm y tế, kỷ luật, … sinh viên có thể liên hệ ai, ở đâu
+
+- intent: t6_q5
+  examples: |
+    - Đánh giá rèn luyện sinh viên để làm gì
+
+- intent: t6_q6
+  examples: |
+    - Phân loại kết quả rèn luyện sinh viên như thế nào ?
+
+- intent: t6_q7
+  examples: |
+    - Phân loại để đánh giá RLSV ra sao ?
+
+- intent: t6_q8
+  examples: |
+    - Quy trình thực hiện, thời gian và kết quả đánh giá như thế nào ?
+
+- intent: t6_q9
+  examples: |
+    - Kết quả đánh giá theo kỳ theo năm học như thế nào ?
+
+- intent: t6_q10
+  examples: |
+    - Sử dụng kết quả đánh giá RLSV làm gì ?
+
+- intent: t6_q11
+  examples: |
+    - Quyền và nghĩa vụ của sinh viên trong đánh giá rèn luyện ?
+
+- intent: t7_q1
+  examples: |
+    - Bảo hiểm y tế là gì?
+
+- intent: t7_q2
+  examples: |
+    - Bảo hiểm y tế được thực hiện dựa trên nguyên tắc nào ?
+
+- intent: t7_q3
+  examples: |
+    - Luật BHYT được áp dụng đối với đối tượng nào?
+
+- intent: t7_q4
+  examples: |
+    - Hiện nay có mấy loại hình bảo hiểm y tế đang được thực hiện?
+
+- intent: t7_q5
+  examples: |
+    - Nhà nước có chính sách gì đối với bảo hiểm y tế?
+
+- intent: t7_q6
+  examples: |
+    - Cơ quan nào thực hiện chức năng quản lý nhà nước về BHYT?
+
+- intent: t7_q7
+  examples: |
+    - Cơ quan nào được giao tổ chức thực hiện chính sách BHYT?
+
+- intent: t7_q8
+  examples: |
+    - Những hành vi nào bị nghiêm cấm trong luật bảo hiểm y tế?
+
+- intent: t7_q9
+  examples: |
+    - Trách nhiệm đóng BHYT của các đối tượng được quy định như thế nào?
+
+- intent: t7_q10
+  examples: |
+    - Các đối tượng được ngân sách nhà nước đóng BHYT gồm những đối tượng nào?
+
+- intent: t7_q11
+  examples: |
+    - Thân nhân của sỹ quan Quân đội nhân dân, nghĩa vụ quân sự, Công an nhân dân và cơ yếu được ngân sách nhà nước đóng BHYT gồm những đối tượng nào?
+
+- intent: t7_q12
+  examples: |
+    - Các đối tượng được NSNN hỗ trợ một phần mức đóng BHYT gồm những đối tượng nào, mức hỗ trợ là bao nhiêu và khi nào được áp dụng?
+
+- intent: t7_q13
+  examples: |
+    - Các đối tượng phải đóng toàn bộ mức đóng khi tham gia BHYT gồm những đối tượng nào và thời điểm đối tượng có trách nhiệm tham gia BHYT?
+
+- intent: t7_q14
+  examples: |
+    - Trường hợp tất cả các thành viên trong một hộ gia đình cùng tham gia BHYT thì mức đóng BHYT có được giảm trừ không? Áp dụng với đối tượng nào?
+
+- intent: t7_q15
+  examples: |
+    - Mức đóng, trách nhiệm và phương thức đóng BHYT học sinh, sinh viên được quy định như thế nào?
+
+- intent: t7_q16
+  examples: |
+    - Thẻ BHYT là gì ?
+
+- intent: t7_q17
+  examples: |
+    - Thẻ BHYT có thời hạn sử dụng như thế nào ?
+
+- intent: t7_q18
+  examples: |
+    - Trong trường hợp nào thì thẻ BHYT không có giá trị sử dụng?
+
+- intent: t7_q19
+  examples: |
+    - Hồ sơ cấp thẻ BHYT bao gồm những gì và thời gian nhận được thẻ là bao lâu?
+
+- intent: t7_q20
+  examples: |
+    - Người tham gia BHYT khi bị mất thẻ BHYT thì có được cấp lại không, thủ tục như thế nào và có ảnh hưởng đến quyền lợi không?
+
+- intent: t7_q21
+  examples: |
+    - Người tham gia BHYT được đổi lại thẻ BHYT trong trường hợp nào và cần có những thủ tục gì và có ảnh hưởng đến quyền lợi không?
+
+- intent: t7_q22
+  examples: |
+    - Thẻ BHYT bị thu hồi, tạm giữ trong trường hợp nào ?
+
+- intent: t7_q23
+  examples: |
+    - Người tham gia BHYT được hưởng quyền lợi gì?
+
+- intent: t7_q24
+  examples: |
+    - Cơ quan nào có trách nhiệm quy định cụ thể các chi phí được Quỹ BHYT chi trả cho người tham gia BHYT khi khám chữa bệnh ?
+
+- intent: t7_q25
+  examples: |
+    - Như thế nào là đi khám chữa bệnh BHYT đúng quy định?
+
+- intent: t7_q26
+  examples: |
+    - Người tham gia BHYT khi đi khám chữa bệnh đúng quy định mức hưởng BHYT như thế nào?
+
+- intent: t7_q27
+  examples: |
+    - Quỹ BHYT chi trả như thế nào khi người tham gia BHYT đi khám chữa bệnh đúng quy định có sử dụng dịch vụ kỹ thuật cao, chi phí lớn?
+
+- intent: t7_q28
+  examples: |
+    - Mức hưởng BHYT khi người tham gia BHYT đi khám chữa bệnh không đúng quy định thì như thế nào ?
+
+- intent: t7_q29
+  examples: |
+    - Người có thẻ BHYT khi phải sử dụng một số loại thuốc điều trị ung thư và thuốc chống thải ghép ngoài Danh mục do Bộ Y tế quy định có được Quỹ BHYT chi trả không và mức chi trả là bao nhiêu?
+
+- intent: t7_q30
+  examples: |
+    - Thủ tục khi đi khám bệnh, chữa bệnh BHYT ?
+
+- intent: t7_q31
+  examples: |
+    - Người tham gia BHYT đi khám chữa bệnh tại các cơ sở y tế ngoài công lập có được hưởng quyền lợi về BHYT không?
+
+- intent: t7_q32
+  examples: |
+    - Trường hợp người có thẻ BHYT đi khám bệnh, chữa bệnh tại cơ sở y tế không ký hợp đồng KCB BHYT, hoặc không đủ thủ tục theo quy định thì có được quỹ BHYT thanh toán không và mức thanh toán như thế nào ?
+
+- intent: t7_q33
+  examples: |
+    - Trường hợp người tham gia BHYT đi khám bệnh, chữa bệnh tại nước ngoài thủ tục và mức hưởng như thế nào ?
+
+- intent: t7_q34
+  examples: |
+    - Người tự nguyện tham gia BHYT được hưởng quyền lợi gì khi đi khám chữa bệnh?
+
+- intent: t7_q35
+  examples: |
+    - Quỹ BHYT không thanh toán đối với trường hợp nào?
+
+- intent: t7_q36
+  examples: |
+    - Người tham gia BHYT khi khám, điều trị các bệnh bẩm sinh thì có được Quỹ BHYT chi trả không ?
+
+- intent: t7_q37
+  examples: |
+    - Cơ sở khám bệnh, chữa bệnh BHYT là những cơ sở nào?
+
+- intent: t7_q38
+  examples: |
+    - Cơ sở khám bệnh, chữa bệnh BHYT ban đầu là gì?
+
+- intent: t7_q39
+  examples: |
+    - Người tham gia BHYT đăng ký khám bệnh, chữa bệnh BHYT ban đầu ở đâu?
+
+- intent: t7_q40
+  examples: |
+    - Điều kiện của cơ sở khám bệnh, chữa bệnh BHYT ban đầu là gì?
+
+- intent: t7_q41
+  examples: |
+    - Người tham gia BHYT có được chuyển tuyến điều trị không? Cần những thủ tục gì?
+
+- intent: t7_q42
+  examples: |
+    - Thủ tục khám lại theo yêu cầu điều trị đối với người tham gia BHYT được quy định như thế nào?
+
+- intent: t7_q43
+  examples: |
+    - Người tham gia BHYT đi khám chữa bệnh trong những ngày nghỉ, ngày lễ thì có hưởng chế độ BHYT không ?
+
+- intent: t7_q44
+  examples: |
+    - Người có thẻ BHYT khi đi công tác hoặc tạm trú ở địa phương khác thì khám chữa bệnh ở cơ sở y tế nào để được hưởng quyền lợi? Các thủ tục cần thiết là gì?
+
+- intent: t7_q45
+  examples: |
+    - Thanh toán chi phí khám chữa bệnh BHYT được thực hiện theo phương thức nào ?
+
+- intent: t7_q46
+  examples: |
+    - Tổ chức Bảo hiểm y tế thanh toán chi phí KCB BHYT theo những hình thức nào?
+
+- intent: t7_q47
+  examples: |
+    - Thủ tục thanh toán trực tiếp chi phí khám bệnh, chữa bệnh cho người có thẻ BHYT được quy định như thế nào?
+
+- intent: t7_q48
+  examples: |
+    - Sau bao nhiêu ngày người bệnh có thẻ BHYT nhận được tiền thanh toán chi phí khám bệnh, chữa bệnh theo hình thức thanh toán trực tiếp?
+
+- intent: t7_q49
+  examples: |
+    - Quyền của người tham gia BHYT ?
+
+- intent: t7_q50
+  examples: |
+    - Nghĩa vụ của người tham gia bảo hiểm y tế được quy định như thế nào ?
+
+- intent: t7_q51
+  examples: |
+    - Quyền của tổ chức, cá nhân đóng?
+
+- intent: t7_q52
+  examples: |
+    - Quyền của tổ chức Bảo hiểm y tế?
+
+- intent: t7_q53
+  examples: |
+    - Trách nhiệm của tổ chức BHYT?
+
+- intent: t7_q54
+  examples: |
+    - Quyền của cơ sở khám bệnh, chữa bệnh BHYT ?
+
+- intent: t7_q55
+  examples: |
+    - Trách nhiệm của cơ sở khám bệnh, chữa bệnh BHYT ?
+
+- intent: t8_q1
+  examples: |
+    - Các hành vi sinh viên không được làm được quy định ở đâu ?
+
+- intent: t8_q2
+  examples: |
+    - Hình thức kỷ luật và nội dung vi phạm quy định ở đâu ?
+
+- intent: t8_q3
+  examples: |
+    - Trình tự, thủ tục và hồ sơ xét kỷ luật như thế nào ?
+
+- intent: t9_q1
+  examples: |
+    - Đối tượng được cấp học bổng khuyến khích học tập là ai ?
+
+- intent: t9_q2
+  examples: |
+    - Tiêu chuẩn và mức xét, cấp học bổng khuyến khích học tập quy định như thế nào ?
+
+- intent: t9_q3
+  examples: |
+    - Đối tượng được cấp học bổng chính sách (HBCS) là ?
+
+- intent: t9_q4
+  examples: |
+    - Mức học bổng chính sách ?
+
+- intent: t9_q5
+  examples: |
+    - Các học bổng khác sẽ thực hiện như thế nào ?
+
+- intent: t10_q1
+  examples: |
+    - Sinh viên đã thôi học, tuy nhiên đã học và qua hết các học phần quốc phòng theo quy định của Trường, vậy có được cấp chứng chỉ giáo dục quốc phòng không?
+
+- intent: t10_q2
+  examples: |
+    - Nếu không thể về Trường để nhận bằng tốt nghiệp, sinh viên cần phải làm gì?
+
+- intent: t10_q3
+  examples: |
+    - Đơn vị nào chủ trì xét học bổng khuyến khích học tập và cách tính số tiền học bổng chia về các lớp
+
+- intent: t10_q4
+  examples: |
+    - Học phần Giáo dục thể chất và học phần Giáo dục quốc phòng có tính vào điểm trung bình chung tích lũy không a?
+
+- intent: t10_q5
+  examples: |
+    - Điều kiện để được nghỉ học tạm thời và bảo lưu Kết quả học tập của sinh viên
+
+- intent: t10_q6
+  examples: |
+    - Sinh viên đã có chứng chỉ Giáo dục quốc phòng có phải học các học phần Giáo dục quốc phòng không
+
+- intent: t10_q7
+  examples: |
+    - Học phần tiên quyết là gì:
+
+- intent: t10_q8
+  examples: |
+    - Học phần song hành là gì?
+
+- intent: t10_q9
+  examples: |
+    - Học phần bắt buộc và học phần tự chọn khác nhau như thế nào
+
+- intent: t10_q10
+  examples: |
+    - Khối lượng học tập tối thiểu mà mỗi sinh viên phải đăng ký trong mỗi học kỳ là bao nhiêu?
+
+- intent: t10_q11
+  examples: |
+    - Sinh viên xin rút bớt học phần đã đăng ký cần lưu ý những gì?
+
+- intent: t10_q12
+  examples: |
+    - Những lưu ý với sinh viên đăng ký học lại
+
+- intent: t10_q13
+  examples: |
+    - Sinh viên bị ốm muốn được hoãn thi phải làm gì?
+
+- intent: t10_q14
+  examples: |
+    - Sinh viên bị cảnh báo học tập khi nào?
+
+- intent: t10_q15
+  examples: |
+    - Sinh viên bị buộc thôi học khi nào?
+
+- intent: t10_q16
+  examples: |
+    - Sinh viên bị buộc thôi học có thể chuyển hệ học tại trường không?
+
+- intent: t10_q17
+  examples: |
+    - Sinh viên có được chuyển trường không?
+
+- intent: t10_q18
+  examples: |
+    - Sinh viên có được gia hạn học phí không?
+
+- intent: t10_q19
+  examples: |
+    - Sinh viên muốn cấp lại mật khẩu đăng ký học phần phải làm gì?
+
+- intent: t10_q20
+  examples: |
+    - Điều kiện để sinh viên được xét tốt nghiệp?
+
+- intent: t10_q21
+  examples: |
+    - Xếp hạng tốt nghiệp như thế nào?
+
+- intent: t10_q22
+  examples: |
+    - Điều kiện về học tập để được giao đồ án tốt nghiệp?
+
+- intent: t10_q23
+  examples: |
+    - Điều kiện về học tập để sinh viên được bảo vệ ĐATN?
+
+- intent: t10_q24
+  examples: |
+    - Tiêu chuẩn và mức xét, cấp học bổng khuyến khích học tập?
+
+- intent: t10_q25
+  examples: |
+    - Sinh viên có được chuyển điểm tiếng Anh không? và chuyển bằng cách nào?
+
+- intent: t11_q1
+  examples: |
+    - Cho em hỏi mã tuyển sinh của Phân hiệu là gì ạ?
+
+- intent: t11_q2
+  examples: |
+    - Em tra Google thì Trường GTVT TpHCM có 2 địa chỉ, vậy cho em hỏi địa chỉ của Phân hiệu là ở đâu?
+
+- intent: t11_q3
+  examples: |
+    - Cho em hỏi mức học phí của Phân hiệu ạ?
+
+- intent: t11_q4
+  examples: |
+    - Cho em hỏi ngành nào là chủ lực của Phân hiệu?
+Cơ hội việc làm sau khi ra trường sao ạ?
+
+- intent: t11_q5
+  examples: |
+    - Phân hiệu hiện có các ngành đào tạo nào ạ?
+
+- intent: t11_q6
+  examples: |
+    - Cho em hỏi bằng cấp sau khi ra trường là kỹ sư
+hay cử nhân?
+
+- intent: t11_q7
+  examples: |
+    - Trường có ký túc xá hay không ạ? Nếu có thì có gần giảng đường hay không?
+
+- intent: t11_q8
+  examples: |
+    - Các trang thiết bị của Phân hiệu có hiện đại không? Sinh viên có được học thực hành nhiều không?
+
+- intent: t11_q9
+  examples: |
+    - Trường có nhiều chế độ hỗ trợ cho sinh viên không? Có học bổng dành cho sinh viên hay không?
+
+- intent: t11_q10
+  examples: |
+    - Thầy cho em hỏi, em muốn học để làm kỹ sư xây dựng thì em có thể chọn ngành nào? Học như thế nào và cơ hội việc làm có cao không?

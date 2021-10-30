@@ -1,0 +1,83 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - xin chào
+    - cho em hỏi ạ
+    - chào
+    - chào buổi sáng
+
+- intent: goodbye
+  examples: |
+    - bye
+    - tạm biệt
+    - chào bạn
+    - good bye
+    - bye bye
+    - hẹn gặp lại
+    - chào tạm biệt
+
+- intent: affirm
+  examples: |
+    - yes
+    - ok
+    - đồng ý
+    - được luôn
+    - ok ngay
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - không
+    - không bao giờ
+    - đừng
+    - không được
+
+- intent: mood_great
+  examples: |
+    - hoàn hảo
+    - tuyệt vời
+    - kinh ngạc
+    - cảm giác như một vị vua
+    - Tuyệt vời
+    - Tôi đang cảm thấy rất tốt
+    - tôi rất tuyệt
+    - Tôi tuyệt vời
+    - Tôi sẽ cứu thế giới
+    - siêu nướng
+    - cực kỳ tốt
+    - quá hoàn hảo
+    - tốt quá
+    - rất hoàn hảo
+
+- intent: mood_unhappy
+  examples: |
+    - ngày của tôi thật kinh khủng
+    - Tôi buồn
+    - Tôi cảm thấy không khỏe
+    - Tôi thất vọng
+    - siêu buồn
+    - Tôi buồn quá
+    - buồn
+    - rất buồn
+    - không vui
+    - không tốt
+    - không tốt lắm
+    - buồn vô cùng
+    - thật tuyệt
+    - quá buồn
+
+- intent: bot_challenge
+  examples: |
+    - bạn là robot?
+    - Bạn có phải là con người?
+    - tôi đang nói chuyện với một con bot?
+    - Tôi đang nói chuyện với một con người?
+    - Bạn tên là gì vậy
+    - cho tôi biết tên bạn được không
+    - what your name

@@ -1,0 +1,32 @@
+<html>
+<body>
+	<script>!(function () {
+		let e = document.createElement("script"),
+		t = document.head || document.getElementsByTagName("head")[0];
+		(e.src =
+			"https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+    // Replace 1.x.x with the version that you want
+    (e.async = !0),
+    (e.onload = () => {
+    	window.WebChat.default(
+    	{
+    		// tài liệu https://github.com/botfront/rasa-webchat
+    		initPayload: '/greet',
+    		customData: { language: "en" },
+    		socketUrl: "https://6f9b-14-235-181-113.ngrok.io",
+    		title: "ĐH GTVT PHÂN HIỆU TP.HCM",
+    		subtitle: "Thường trả lời sau vài phút🤣",
+    		inputTextFieldHint: "Xin chào 🖐️",
+    		showFullScreenButton: true,
+    		showMessageDate: true
+    	},
+    	null
+    	);
+    }),
+    t.insertBefore(e, t.firstChild);
+})();
+</script>
+<!-- <div id="rasa-chat-widget" data-websocket-url="https://6f9b-14-235-181-113.ngrok.io"></div>
+<script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript"></script> -->
+</body>
+</html>
