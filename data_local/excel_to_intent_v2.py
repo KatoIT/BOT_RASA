@@ -10,14 +10,18 @@ def nlu(list_ws):
         max_col = i.max_column
         for j in range(2, max_col + 1):
             intent = i.cell(row=1, column=j).value
-            f.writelines(["\n- intent: " + str(intent), "\n  examples: |"])
-            for k in range(2, max_row + 1):
-                question = i.cell(row=k, column=j).value
-                print(question)
-                if question is not None:
-                    f.write("\n    - " + str(question))
-                else:
-                    break
+            if intent is not None:
+                f.writelines(["\n- intent: " + str(intent), "\n  examples: |"])
+                for k in range(2, max_row + 1):
+                    question = i.cell(row=k, column=j).value
+                    # print(question)
+                    if question is not None:
+                        f.write("\n    - " + str(question))
+                    else:
+                        break
+            else:
+                break
+
             f.write("\n")
     f.close()
 

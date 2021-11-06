@@ -14,7 +14,7 @@ class ActionHelloWorld(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         intent_name = tracker.latest_message['intent'].get('name')  # get intent name
-        # TODO Lưu lại câu hỏi của khách vào file '../data_local/customer_messages.xlsx'
+        #  Lưu lại câu hỏi của khách vào file '../data_local/customer_question.xlsx'
         # (Lưu ý: chỉ dùng khi cần thêm dữ liệu câu hỏi)
         message = tracker.latest_message["text"]  # get message
         write_excel_file(intent_name=intent_name, message=message)

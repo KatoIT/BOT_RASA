@@ -1,8 +1,8 @@
 import openpyxl
 import os.path as path
 
-file_name_answer = 'E:\ChatBotRasa\ChatBot\ChatBot_v1/data_local/data_bot.xlsx'
-file_name_question = 'E:\ChatBotRasa\ChatBot\ChatBot_v1\data_local\customer_messages.xlsx'
+file_name_answer = 'E:\ChatBotRasa\ChatBot\ChatBot_v1\data_local\data_bot.xlsx'
+file_name_question = 'E:\ChatBotRasa\ChatBot\ChatBot_v1\data_local\customer_question.xlsx'
 
 
 # Tạo file excel mới
@@ -28,10 +28,6 @@ def create_excel_file(input_detail, output_excel_path):
 
 # copy các work sheet sang file mới
 def copy_work_sheet_not_data(output_excel_path, input_excel_path):
-    input_detail = [['ID CÂU HỎI'], [1], [2], [3]]
-    # Xác định số hàng và cột lớn nhất trong file excel cần tạo
-    row = len(input_detail)
-    column = len(input_detail[0])
     # get work_sheet on file input
     wb = openpyxl.load_workbook(input_excel_path)
     g_sheet = wb.sheetnames
@@ -40,15 +36,20 @@ def copy_work_sheet_not_data(output_excel_path, input_excel_path):
     wb_ = openpyxl.Workbook()
     for sheet in range(len(g_sheet)):
         ws = wb_.create_sheet(g_sheet[sheet])
+        input_detail = read_questions(wb[g_sheet[sheet]])
+        # Xác định số hàng và cột lớn nhất trong file excel cần tạo
+        row = len(input_detail)
+        column = len(input_detail[0])
         # Dùng vòng lặp for để ghi nội dung từ input_detail vào file Excel
         for i in range(0, row):
-            for j in range(0, column):
+            for j in range(0, len(input_detail[i])):
                 v = input_detail[i][j]
                 ws.cell(column=j + 1, row=i + 1, value=v)
     wb_.remove(wb_['Sheet'])
     # Lưu lại file Excel
     wb_.save(output_excel_path)
     wb_.close()
+    wb.close()
 
 
 # ghi các message khách hàng vào file
@@ -124,7 +125,9 @@ def read_questions(work_sheet):
 
 if __name__ == "__main__":
     var = read_excel_file()
-    print(read_questions(var[0]))
+    # print(read_questions(var[0]))
+    print(var)
+    # copy_work_sheet_not_data(file_name_question, file_name_answer)
 # txt = read_work_sheet(var, "t1_q1")
 # print(txt)
 # #
